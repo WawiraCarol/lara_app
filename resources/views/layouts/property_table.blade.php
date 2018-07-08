@@ -16,6 +16,7 @@
                     <table >
                     <tr>
                         <th>
+                    <td>Numbers </td>
                     <td>Property Name </td>
                     <td>Location</td>
                     <td>Description</td>
@@ -26,6 +27,7 @@
                     </tr>
                     @foreach($property as $zawatu)
                     <tr >
+                    <td>{{$zawatu->id}}</td>
                     <td>{{$zawatu->Name}}</td>
                     <td>{{$zawatu->location}}</td>
                     <td>{{$zawatu->description}}</td>
